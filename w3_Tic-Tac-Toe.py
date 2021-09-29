@@ -85,8 +85,8 @@ def minimax(board, depth, maxPlayer):
                 pos = p
     return pos, value
 
-player = 'X'
 # 메인 프로그램
+player = 'X'
 while True:
     draw(game_board)
     if len(empty_cells(game_board)) == 0 or game_over(game_board):
